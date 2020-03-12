@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Nav bar code */
+nav {
+	display: inline;
+	padding: 20px;
+	background-color: cornflowerblue;
+	position: fixed;
+	width: 100%;
+}
+
+nav a {
+	margin: 0 2%;
+	width: 100%;
+}
+
+.logo {
+	margin: 20px 0 0 80px
+}
+
+/* Main section */
+.main {
+	padding: 40px;
+}
+
+/* Header code */
+
+header {
+	display: block;
+	margin-top: 70px;
+}
+h1 {
+	font-size: 80px;
+	
+}
+
+.title {
+	/* padding-bottom: 20%; */
+}
+
+header div {
+	width: 49%;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+header img {
+	margin-right: 0;
+}
+/* top-container code */
+
+.top-container {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.top-container div {
+	width: 49%;
+	display: inline-block;
+}
+
+/* middle image code */
+.middle-img {
+	width: 100%;
+}
+
+/* bottom-container code */
+
+.bottom-container {
+	margin: 20px 0;
+}
+
+.bottom-container div {
+	width: 30%;
+	display: inline-block;
+}
+
+#services, #product {
+	margin-right: 1%;
+}
+
+/* footer code */
+
+footer {
+	text-align: center;
+	padding: 40px;
+	font-family: "Courier New", Courier, monospace;
+}
