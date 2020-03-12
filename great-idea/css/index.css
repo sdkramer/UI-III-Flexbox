@@ -129,17 +129,30 @@ button {
 header img {
 	/* margin-right: 0; */
 }
+
+
+
 /* top-container code */
 
 .top-container {
 	/* display: inline-block;
 	margin: 20px 0; */
+	display: flex;
+	justify-content: space-between;
 }
 
 .top-container div {
 	/* width: 49%;
 	display: inline-block; */
+	padding-top: 2%;
+	padding-bottom: 4%;
+	
 }
+
+#features {
+	padding-right: 5%;
+}
+
 
 /* middle image code */
 .middle-img {
