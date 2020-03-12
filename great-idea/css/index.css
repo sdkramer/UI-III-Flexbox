@@ -240,6 +240,7 @@ flex-grow: 1.3;
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
+	/* align-items: center; */
 
 
 }
@@ -247,6 +248,13 @@ flex-grow: 1.3;
 .bordered-box  {
 	border: 1px solid black;
 	padding: 2%;
+	margin-bottom: 2%;
 	background: lightgray;
 	width: 48%;
+	
+}
+
+
+ul {
+	list-style: circle;
 }
